@@ -1,0 +1,9 @@
+.Termandconditions{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+   .Termandconditions{margin-left: 0%;
+   margin-right: 0%;}
+  }

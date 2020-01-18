@@ -1,0 +1,5 @@
+1.instal React,npm,yarn,nodejs
+2.instal gatsby CLI
+3.instal transformer-remark
+4.instal GIT !important
+5.Run Gatsby develop on cmd
