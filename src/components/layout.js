@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header/>
-      <div style={{margin: `0 auto`,padding: `0px 1.0875rem 1.45rem`,paddingTop: 0,paddingBottom:100}}>
+      <div style={{margin: `0 auto`,paddingTop: 0,paddingBottom:100}}>
         <main>{children}</main>
 
       <div class="foot">
