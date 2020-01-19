@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           <h3 style={{fontWeight:`1`,userSelect:`none`,cursor:`default`}}>Have a question?</h3>
           <Link to="/faq" style={{textDecoration:`none`}}><h3 style={{fontWeight:`lighter`}}>FAQ</h3></Link>
           <h4 style={{fontWeight:`1`}}>Chrysnaardy123@gmail.com</h4>
-          <h4 style={{fontWeight:`1`}}>081-000-000</h4>
+          <a href="https://api.whatsapp.com/send?phone=6287864249656&text=Is%20There%20Any%20Problem?"><h4 style={{fontWeight:`1`}}>62+878-642-496-56</h4></a>
           </center>
         </div>
         <div class="col-4">
