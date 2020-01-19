@@ -37,7 +37,7 @@ const AboutUs= () => (
               <div class="col-12" style={{textAlign:`center`}}>
                 <h1>HISTORY</h1>
                 <h3>
-                Founded in [2020] by Chrysna ardy, GhostyNovel inc has come a long way from its beginnings 
+                Founded in 2020 by Chrysna ardy, GhostyNovel inc has come a long way from its beginnings 
                 in Indonesia,East-Java. When Chrysna first started out, 
                 his passion for Novel drove them to  publish and promote the best novel so that GhostyNovel inc
                  can offer you . "the world's most adore novel". We now serve customers all over  the world, 
@@ -84,6 +84,7 @@ const AboutUs= () => (
                 <i>Note!:That you cannot buy novel here this site just a simulation of my project</i>
                 <h3>Sincerely,</h3>
                 <h3>Chrysna ardy</h3>
+                <i>The developer</i>
               </div>
           </div>
       </div>
