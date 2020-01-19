@@ -26,7 +26,7 @@ class IncrementButton extends Component {
   render() {
     return (
       <div>
-        <a><p onClick={this.TambahItem} class="incrementbutton">Buy this book</p></a>
+        <a href="https://api.whatsapp.com/send?phone=6287864249656&text=Feel%20free%20to%20order"><p onClick={this.TambahItem} class="incrementbutton">Buy this book</p></a>
         {<h3 style={{fontWeight:`lighter`}}>Book Sold   : { this.state.booksold }</h3>}
     {this.state.bookstock == 0?
     <h3 class="solddescription">Book Stock: Oops,Sorry We Running Out Of Stock</h3>:
