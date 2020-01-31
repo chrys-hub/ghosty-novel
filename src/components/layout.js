@@ -14,6 +14,7 @@ import "./layout.css"
 import "../grid/simple-grid.min.css"
 import fbicon from "../images/facebook-icon.png"
 import githubicon from "../images/githubicon.png"
+import Telegram from "../components/telegram"
 
 console.log(fbicon)
 console.log(githubicon)
@@ -31,9 +32,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header/>
-      <div style={{margin: `0 auto`,paddingTop: 0,paddingBottom:100}}>
+      <div style={{margin: `20px`,paddingTop: 0,paddingBottom:100}}>
         <main>{children}</main>
-
       <div class="foot">
       <div style={{marginTop:`30px`,marginBottom:`-60px`}}>
       <div class="row">
@@ -68,7 +68,9 @@ const Layout = ({ children }) => {
     </div>
       </div>
       </div>
-	   
+      <div>
+      <Telegram/>
+      </div>
 
     </>
   )
